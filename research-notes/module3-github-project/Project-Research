@@ -1,0 +1,53 @@
+Topic 1: [Adversarial Machine Learning in Cybersecurity.]
+Project 1 — Adversarial Robustness Toolbox (ART)
+•	Citation: Trusted-AI. (2025). Adversarial Robustness Toolbox (ART) – Python Library for Machine Learning Security. GitHub. https://github.com/Trusted-AI/adversarial-robustness-toolbox
+•	Type: Research Framework / Security Tool
+•	Synopsis: ART is a computer program that helps people test how safe and competent their AI models really are. Sometimes, hackers try to “trick” an AI, like making a self-driving car think a stop sign is a speed-limit sign by adding tiny changes the human eye can’t see. ART lets scientists and developers create these kinds of “tricks” on purpose, so they can figure out how to make the AI stronger and harder to fool. 5.6k stars, 97watching and Forks 1.3k forks
+•	Links: https://github.com/Trusted-AI/adversarial-robustness-toolbox?utm_source
+•	https://adversarial-robustness-toolbox.readthedocs.io/en/latest/
+•	Relevance: (5/5) — Highly relevant to Adversarial Machine Learning in Cybersecurity. It is the leading open-source toolkit for implementing, testing, and defending against adversarial attacks in ML systems.
+
+
+Project 2: adv-dnn-ens-malware
+•	Citation Deqiang Li / Qianmu Li. (2020). adv-dnn-ens-malware — Adversarial Deep Ensemble: Evasion Attacks and Defenses for Malware Detection. GitHub https://github.com/deqangss/adv-dnn-ens-malware?
+•	Type: Research Implementation / Security Tool
+•	Synopsis: Researchers study how hackers can slightly modify malware to fool antivirus software without stopping it from working. These modified programs, called adversarial malware, help scientists test the limits of AI-based malware detectors. By experimenting with real malware and AI models, researchers can identify weaknesses in antivirus systems and develop ways to make them stronger. Testing adversarial examples is like a safety drill: it prepares systems for attacks before real criminals exploit them. Ethical precautions are essential, as handling live malware and sharing attack methods can pose risks.
+•	Link: https://github.com/deqangss/adv-dnn-ens-malware?
+
+•	Relevance: 4/5 — Because your topic is adversarial machine learning in cybersecurity, and this project directly applies adversarial ML to malware detection, it is highly relevant and offers a hands-on implementation you can experiment with.
+
+
+        
+            
+
+Topic 2: Static vs. Dynamic Malware Analysis Techniques (Research with Hands-On Component)
+Project 1
+•	Citation: arxlan786. (2021). Malware-Analysis — Static and Dynamic Malware Analysis Tools. GitHub https://github.com/arxlan786/Malware-Analysis?
+•	Type: Educational Framework / Utility Script
+•	Synopsis: This repository provides tools, scripts, and sample files for learning malware analysis. It encompasses static analysis, which examines files and binaries without executing them, and dynamic analysis, which observes behavior within a controlled sandbox. While some tools are OS-specific and may require Python dependencies, the collection enables users to practice analyzing malware and understanding its behavior safely.
+•	Statistics: 5 stars, York 150
+•	Link: https://github.com/arxlan786/Malware-Analysis?
+•	Relevance: 3/5 — Highly relevant because it covers both static and dynamic malware analysis with practical exercises, which matches your research with a hands-on component.
+
+
+       Project 2
+•	Citation: cyph3rryx. (2020). Malware-Detection-System — Dynamic Malware Analysis with Machine Learning. GitHub https://github.com/cyph3rryx/Malware-Detection-System? 
+•	Type: Research Implementation / Security Tool
+•	Synopsis:
+•	Statistics: 250 stars, 80 forks
+•	Link: https://github.com/cyph3rryx/Malware-Detection-System?
+•	Rating: 4/5 — Useful for learning dynamic malware analysis techniques and applying them in a hands-on environment.
+
+
+Comparison Notes Between Projects
+
+The four GitHub projects cover two key areas: malware analysis and adversarial machine learning in cybersecurity. Malware analysis and malware detection systems focus on understanding malware behavior, with the first providing both static and dynamic analysis tools, and the second emphasizing dynamic analysis with machine learning in a sandbox environment. The Adversarial Robustness Toolbox (ART) and adv-dnn-ens-malware focus on testing and defending AI systems against adversarial attacks, with ART serving as a general-purpose framework for AI models, and adv-dnn-ens-malware targeting malware-specific evasion attacks. Together, these projects offer hands-on opportunities to learn about how malware behaves and how AI can be protected against manipulation.
+   
+
+Questions that Emerged During GitHub Research
+•  Which tools are best for combining static and dynamic malware analysis with machine learning?
+•  How do researchers safely test adversarial malware without risking infections?
+•  Are there up-to-date, actively maintained repositories for dynamic malware detection with modern AI?
+•  How do the differences in Python version, OS, and dependencies affect the usability of these tools?
+•  What are the ethical considerations when publishing research involving adversarial malware examples?
+
