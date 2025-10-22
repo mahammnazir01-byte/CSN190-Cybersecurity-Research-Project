@@ -1,0 +1,153 @@
+## Topic 1: Adversarial Machine Learning in Cybersecurity
+### Academic Resource 1
+-1. Citation:
+Rosenberg, I., Shabtai, A., Elovici, Y., & Rokach, L. (2020). Adversarial
+Machine Learning Attacks and Defense Methods in the Cyber
+Security Domain. arXiv preprint arXiv:2007.02407. Retrieved from
+https://arxiv.org/abs/2007.02407 (arXiv)
+-2. Resource Type:Academic Article
+-3. Synopsis:This survey reviews adversarial attacks (e.g. evasion, poisoning)
+against ML systems in cybersecurity, outlines attacker goals and
+capabilities, and proposes a taxonomy mapping attacks and
+corresponding defenses in security contexts. The paper also
+discusses the unique challenges of deploying adversarial ML in realworld security systems (e.g. discrete feature spaces, constrained
+attacker modifications).
+-4. Direct Link:https://arXiv.org/abs/2007.02407 (arXiv)
+-5. Relevance Rating: 5/5This is a foundational survey specifically targeted at adversarial ML in
+cybersecurity, making it extremely central to your topic. Its taxonomy
+and critique of deployment challenges are especially valuable.
+-Limitations:• It is a survey rather than novel original research, so it may not include
+the most recent developments post-2020.Some defense proposals may be theoretical and not validated in
+large-scale real-world systems.
+
+
+### Academic Resource 2
+-1. Citation:Papernot, N., McDaniel, P., Wu, X., Jha, S., & Swami, A. (2015).
+Distillation as a Defense to Adversarial Perturbations against Deep
+Neural Networks. arXiv preprint arXiv:1511.04508. Retrieved from
+https://arXiv.org/abs/1511.04508 (arXiv)
+-2. Resource Type:Academic Article
+-3. Synopsis:This article introduces defensive distillation as a technique to
+reduce the vulnerability of deep neural networks to adversarial
+perturbations. The authors show that distilling knowledge from a
+DNN can smooth out gradients exploited by attackers, dramatically
+lowering adversarial success rates in tested settings.
+-4. Direct Link:https://arXiv.org/abs/1511.04508 (arXiv)
+-5. Relevance Rating: 4/5 While not specific to cybersecurity per se, this is a seminal work in
+adversarial defense and helps you understand core defense .mechanisms applicable across domains (including security)
+-Limitations:• The experiments are largely in image domain (vision), so some
+conclusions may not transfer cleanly to discrete, structured, or
+domain-constrained data (e.g. network traffic).• Later works have found that distillation can be circumvented by more
+advanced adversarial strategies.
+
+### Online/Multimedia Resource 1
+-1. Citation (APA): “CertMike Explains Adversarial AI.” (n.d.). YouTube. Retrieved from
+https://www.youtube.com/watch?v=neGRoccTP-4 (YouTube)
+-2. Resource Type:Educational YouTube Video
+-3. Synopsis:In this talk, Mike Chapple introduces the notion of adversarial AI, how
+machine learning models may be manipulated by adversaries, and
+why it matters in cybersecurity. He breaks down concepts accessibly,
+making it useful for those new to the subject.
+-4. Direct Link: https://www.youtube.com/watch?v=neGRoccTP-4 (YouTube)
+-5. Relevance Rating: 3/5 This is a more introductory resource, good for conceptual grounding
+and non-technical audiences, but not deeply technical or domain specific.
+Limitations: • High-level, doesn’t dive into advanced methods, datasets, or
+research details. • May simplify or omit nuances for the sake of clarity
+
+### Online / Multimedia Resource 2
+-1. Citation:“Overview of Adversarial Machine Learning.” (2023, October 12).
+YouTube. Software Engineering Institute / Carnegie Mellon University.
+https://www.youtube.com/watch?v=C8jJ4H6BL1c
+-2. Resource Type:YouTube Video
+-3. Synopsis:This video provides a compact overview of adversarial machine
+learning: definitions, adversary motivations, threat models,
+mitigation strategies, and how robustness is achieved. It also
+presents a taxonomy of attack vectors and defense techniques.
+-4. Direct Link: https://www.youtube.com/watch?v=C8jJ4H6BL1c
+-5. Relevance Rating: 4/5 This is more technical and structured than the first video. Useful for
+quickly getting up to speed and mapping out the landscape of
+adversarial ML.
+-Limitations:• Because it is an overview, it cannot cover every nuance or variation of
+attacks/defenses. • It might not focus specifically on cybersecurity domains (intrusion,
+malware, etc.), so some adaptation is required.
+
+
+
+##Topic 2: Static vs. Dynamic Malware Analysis Techniques
+###Academic Source 1
+-1. Citation : Onwuzurike, L., Almeida, M., Mariconti, E., Blackburn, J., Stringhini, G., &
+De Cristofaro, E. (2018). A Family of Droids – Android Malware Detection via
+Behavioral Modeling: Static vs Dynamic Analysis. arXiv preprint
+arXiv:1803.03448. https://arxiv.org/abs/1803.03448
+-2. Resource Type: Academic Article
+-3. Synopsis: This study compares static and dynamic analysis for Android malware
+detection using behavioral modeling. The authors extend MaMaDroid (a
+static analysis system) into AuntieDroid (dynamic) to analyze API call
+sequences during runtime. Results show that static analysis can be
+comparable to dynamic methods under certain conditions, and combining
+both improves accuracy. This work provides valuable data driven insights
+into mobile malware detection.
+Limitations: focuses only on Android malware and does not include
+advanced obfuscation or polymorphic threats.
+-4. Direct Link: https://arxiv.org/abs/1803.03448
+-5. Relevance Rating: 5/5 – Directly addresses static vs. dynamic analysis through empirical
+testing, offering clear comparisons and hybrid insights.
+
+
+###Academic Source 2
+-1. Citation: Damodaran, A., Di Troia, F., Visaggio, A., Austin, T. H., & Stamp, M. (2022). A
+Comparison of Static, Dynamic, and Hybrid Analysis for Malware
+Detection. arXiv preprint arXiv:2204.03212.
+https://arxiv.org/abs/2203.09938
+-2. Resource Type: Academic Article
+-3. Synopsis: This paper performs an experimental comparison of static, dynamic, and
+hybrid malware analysis using Hidden Markov Models (HMMs). It evaluates
+detection accuracy across various malware families and explores tradeoffs between the methods. The authors demonstrate that hybrid models
+generally outperform either static or dynamic techniques alone. The paper
+provides datasets and feature extraction tools for replication.
+Limitations: focuses on HMMs rather than modern deep learning models,
+and experiments are limited to specific datasets that may not reflect
+current malware trends.
+-4. Direct Link: https://arxiv.org/abs/2203.09938
+-5. Relevance Rating: 5/5 – Offers comprehensive experimental comparisons and reproducible
+methods ideal for hands on malware research
+
+###Online / Multimedia Source 1
+-1. CitationScreeck. (2024, May 11). Learning malware analysis on WannaCry (static & 
+dynamic) [Video]. YouTube.
+https://www.youtube.com/watch?v=WlE2llZwjZQ
+-2. Resource Type: You Tube Video
+-3. Synopsis: This video demonstrates both static and dynamic malware analysis using
+the WannaCry ransomware. Screeck uses tools such as PE Studio, FLOSS,
+and Process Monitor to identify strings, API calls, and behavioral indicators.
+Static analysis reveals encrypted functions and persistence mechanisms,
+while dynamic analysis shows file encryption, network activity, and registry
+modifications within a virtual lab. The video offers an accessible, step-bystep walkthrough of real-world malware investigation techniques.
+Limitations include an informal presentation style, lack of peer review, and
+minimal code-level analysis. Despite this, it’s a valuable visual learning
+resource for beginners in malware analysis.
+-4. Direct Link: https://www.youtube.com/watch?v=WlE2llZwjZQ
+-5. Relevance Rating: 5/5 – Highly relevant to the topic of malware analysis. The video clearly
+illustrates both static and dynamic investigation methods, showing how
+ransomware operates in real-time while highlighting safe lab procedures. It
+complements academic reading by providing practical demonstrations of
+analysis tools and techniques.
+
+###Online / Multimedia Source 2
+-1. Citation: Psyrun. (2025, April 18). WannaCry Malware Reverse Engineering Step-byStep [Video]. YouTube. https://www.youtube.com/watch?v=xpmgam6krdE
+-2. Resource Type: YouTube Video
+-3. Synopsis: This video provides a detailed reverse engineering walkthrough of the
+WannaCry ransomware. Psyrun explains how to analyze the malware’s
+encryption and propagation methods using debugging and dynamic
+monitoring tools such as x64dbg, ProcMon, and sandbox environments.
+The video balances theoretical explanation with practical demonstration,
+helping viewers understand both static and behavioral analysis. While
+highly informative, it assumes moderate technical knowledge and skips
+some deep assembly-level steps. Overall, it is a clear, engaging, and
+technically grounded resource for learning malware dissection and
+ransomware behavior analysis.
+-4. Direct Link: https://www.youtube.com/watch?v=xpmgam6krdE
+-5. Relevance Rating 5/5 – Extremely relevant to the topic of malware analysis. It complements
+other resources by introducing reverse engineering tools and showing live
+debugging of ransomware in a controlled lab. This visual demonstration
+reinforces theoretical knowledge with practical application.
