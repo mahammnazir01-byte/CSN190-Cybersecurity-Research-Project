@@ -1,0 +1,93 @@
+### Part A: Comprehensive Topic Analysis
+## Topic 1: Adversarial Machine Learning in Cybersecurity
+Feasibility Assessment
+-Technical Requirements: Python programming, AI/ML frameworks
+Current Capability Level: 3/5
+-What to Learn: Implementing adversarial attacks and defenses, dataset handling, and
+model evaluation metrics.
+-Resources: GitHub projects, academic papers, and tutorials are freely available.
+Project-Based: Build and test AI models against adversarial attacks to measure
+robustness.
+-Time Feasibility: Yes — simplified models and experiments can be completed in 8–10
+weeks.
+-Learning and Growth Potential
+Learn how AI security works and how adversarial examples are created.
+Challenge: Understanding how small changes fool large AI systems.
+Career Relevance: Strongly linked to machine learning security and AI safety careers.
+Motivation: High — exciting mix of cybersecurity and AI innovation.
+-Realistic Planning
+Ambitious Goal: Build a full AI malware detector resilient to adversarial attacks.
+Realistic Target: Implement several attacks and defenses using ART on malware or
+image datasets.
+Minimum Viable Outcome: Demonstrate one successful adversarial attack and defense
+experiment.
+
+## Topic 2: Static vs. Dynamic Malware Analysis Techniques
+-Feasibility Assessment
+Technical Requirements: Malware analysis tools, Python scripting, and virtual machines.
+-Current Capability Level: 2.5/5
+What to Learn: Analyzing binary files, sandbox setup, and behavior monitoring.
+-Resources: GitHub projects, online tutorials, and research papers.
+Project-Based: Compare static (code inspection) vs. dynamic results on sample
+malware.
+-Time Feasibility: Manageable with virtual lab environments.
+Learning and Growth Potential
+Learn real-world malware investigation methods.
+-Challenge: Handling and isolating malware safely.
+Career Relevance: Directly useful for roles in cybersecurity, threat analysis, and
+forensics.
+-Motivation: Moderate to high — hands-on and practical topic.
+Realistic Planning
+-Ambitious Goal: Build an integrated malware analysis lab comparing multiple analysis
+tools.
+-Realistic Target: Analyze several malware samples using both static and dynamic
+methods.
+-Minimum Viable Outcome: Successfully document results from one static and one
+dynamic analysis.
+
+##Part B: Simple Comparison
+-Criteria Adversarial ML Static vs Dynamic
+Analysis
+-Feasibility/Accessibility 
+4 Adversarial ML
+3 Static vs Dynamic Analysis
+-Personal Interest 
+5  Adversarial ML
+4 Static vs Dynamic Analysis
+earning Potential 
+5  Adversarial ML
+4 Static vs Dynamic Analysis
+-Career Relevance 
+5  Adversarial ML
+5 Static vs Dynamic Analysis
+-TOTAL 
+19  Adversarial ML
+16 Static vs Dynamic Analysis
+
+## Part C: Final Topic Selection
+I selected Adversarial Machine Learning in Cybersecurity as my final project after conducting an
+assessment of both available topics. The research examines how attackers manipulate AI
+systems, and developers must create protection methods against these attacks. The project
+requires both research and experimental work because it combines my interests in artificial
+intelligence and cybersecurity. The study of static and dynamic malware analysis provides
+practical experience yet adversarial ML presents a more complex intellectual challenge that
+matches contemporary cybersecurity requirements.
+The selected topic presents both feasible and demanding aspects for completion. The
+knowledge I possess about Python and machine learning machine learning basics will enable
+me to start work but I need to acquire additional expertise about adversarial attacks and model
+robustness, and defense methods. The project becomes feasible to finish within 8–10 weeks
+because of available open-source tools, including the Adversarial Robustness Toolbox (ART)
+and adv-dnn-ens-malware.
+My three-tier plan consists of the following steps:
+The project aims to develop an attack-resistant malware detection system, which serves as its
+ambitious objective.
+The project uses ART to perform security testing on a basic machine learning model against
+multiple attack methods.
+The project demonstrates how an adversarial attack can deceive a trained model while showing
+one defense method implementation.
+The project delivers substantial educational value to students. The project will teach me to work
+with Python and AI frameworks and security testing tools which represent essential skills for
+future careers in data science and cybersecurity. The project will teach me about adversarial
+threats and defense methods, even if I finish only part of the work. The combination of creative
+work, practical coding, and real-world applications in this project makes it both interesting and
+inspiring to me.
