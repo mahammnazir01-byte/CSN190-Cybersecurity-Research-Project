@@ -1,0 +1,36 @@
+###Static vs. Dynamic Malware Analysis Techniques
+##Abstract
+The continuous appearance of new malware samples at a rate of millions per month makes malware
+the leading cybersecurity threat. Security experts perform malware analysis to study malicious
+program behavior for developing enhanced protection systems. The evaluation of static versus
+dynamic analysis methods for evasive malware detection and understanding remains an unresolved
+issue. The research investigates static and dynamic malware analysis methods through a
+combination of theoretical analysis and practical implementation to determine their relative strengths
+and weaknesses and analytical precision. The research will evaluate 50 actual malware examples
+through controlled sandbox testing with PEiD and IDA Pro, and Cuckoo Sandbox tools. The static
+analysis method examines code content through signature-based detection, while dynamic analysis
+monitors system changes and runtime activities. The evaluation process will assess detection
+success rates and analysis duration, and ability to withstand encryption attempts. The research will
+establish a performance evaluation between the two methods and develop guidelines for their
+successful integration in operational cybersecurity systems. The research advances malware
+research by providing analysts with a method to select the best analysis approach for handling
+unfamiliar threats.
+
+##Adversarial Machine Learning in Cybersecurity
+###Abstract
+Machine learning serves as a fundamental security tool for cybersecurity operations because it
+enables malware detection and intrusion prevention and phishing identification systems. The same
+models which power cybersecurity systems face vulnerability to adversarial attacks because
+attackers use small deliberate data modifications to produce incorrect model predictions. The
+research explores the increasing danger of adversarial machine learning attacks against
+cybersecurity systems while assessing their ability to evade current protection mechanisms. The
+research combines academic theory with practical testing through Python-based frameworks
+including secml_malware and TensorFlow. The research will create adversarial examples to evaluate
+the resistance of MalConv and other machine learning classifiers which use neural networks for
+malware detection. The research will conduct white-box and black-box attacks to evaluate their
+effectiveness through measurements of detection accuracy and model confidence and evasion
+success rates. The research aims to discover how adversarial attacks impact cybersecurity systems
+while creating methods to enhance system defenses through model retraining and adversarial
+hardening techniques. The research unites theoretical machine learning knowledge with practical
+cybersecurity problems to demonstrate why developers need to create AI systems that resist
+adversarial attacks.
