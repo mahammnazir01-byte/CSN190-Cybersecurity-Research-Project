@@ -1,0 +1,44 @@
+# How Strong Is Your Password Really?
+
+**Author:** Nazir Mohammed  
+**Course:** CSN 190 – Cybersecurity Project  
+**Semester:** Fall 2024  
+**Institution:** Bronx Community College  
+
+## Project Overview
+This project explores password security by deploying and testing an open-source
+password strength checker from GitHub. The goal was to understand how weak passwords
+are identified and how users can create stronger authentication credentials.
+
+## Software and Tools Used
+- Python 3
+- Visual Studio Code
+- Git
+- Zxcvbn Password Strength Library
+- GitHub
+
+## Key Deliverables
+- Medium Article Draft (in /final-paper)
+- Password Strength Tool Deployment
+- Step-by-Step Setup Guide
+- Weekly Progress Documentation
+
+## Repository Navigation
+- `/weekly-progress/` – Weekly assignments and reflections
+- `/resources/` – All research sources used
+- `/src/` – Cloned project and code
+- `/docs/` – Setup and usage documentation
+- `/final-paper/` – Medium article draft and research notes
+- `/images/` – Screenshots and visuals
+
+## Getting Started
+Clone the repository, install Python dependencies, and follow the setup guide
+located in `/docs/SETUP-GUIDE.md`.
+
+## Results Summary
+This project demonstrated that password length and randomness matter more than
+symbols alone. The tool successfully identified weak passwords and reinforced
+best practices recommended by cybersecurity standards.
+
+## Contact
+- Email:mahammnazir01@gmail.com
