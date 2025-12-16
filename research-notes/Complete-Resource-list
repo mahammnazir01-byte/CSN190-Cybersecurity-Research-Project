@@ -1,0 +1,23 @@
+# Complete Resource List
+
+## Academic / Industry Reports
+1. Verizon. (2024). Data Breach Investigations Report.
+   - Summary: Discusses causes of modern data breaches.
+   - Used in: Research Section
+
+2. NIST SP 800-63B – Digital Identity Guidelines
+   - Summary: Password and authentication best practices.
+   - Used in: Research Section
+
+## Technical Documentation
+1. Zxcvbn Documentation
+   - Link: https://github.com/dropbox/zxcvbn
+   - Used to understand password strength evaluation.
+
+## GitHub Projects
+1. Sharma-IT Password Strength Checker
+   - Link: https://github.com/Sharma-IT/password-strength-checker
+   - Used as primary project tool.
+
+## Tutorials / Articles
+1. GitHub Docs – Cloning a Repository
